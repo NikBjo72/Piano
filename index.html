@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="pianoContainer">
+        <div id="whiteTangentContainer">
+            <div class="whiteTangent" id="C"></div>
+            <div class="whiteTangent" id="D"></div>
+            <div class="whiteTangent" id="E"></div>
+            <div class="whiteTangent" id="F"></div>
+            <div class="whiteTangent" id="G"></div>
+            <div class="whiteTangent" id="A"></div>
+            <div class="whiteTangent" id="H"></div>
+
+            <div id="blackTangentContainer">
+                <div id="Db" class="blackTangent"></div>
+                <div id="Eb" class="blackTangent"></div>
+                <div id="dold" class="blackTangent"></div>
+                <div id="Gb" class="blackTangent"></div>
+                <div id="Ab" class="blackTangent"></div>
+                <div id="Bb" class="blackTangent"></div>
+            </div>
+        </div>
+    <div id="btnContainer">
+        <button id="startBtn">Starta inspelning</button>
+        <button id="clearBtn">Rensa inspelning</button>
+    </div>
+    <div id="speedContainer">
+        <label for="speed">Uppspelningshastighet</label>
+        <input id="speed" type="text" placeholder="Preset 500 ms">
+
+    </div>
+    </div>
+</body>
+</html>
