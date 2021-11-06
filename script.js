@@ -52,9 +52,9 @@ let savedPiano = [];
 
 Object.values(key).forEach(element => {
     element.addEventListener('click', () =>{
-        let ton = piano[element.id].src.slice(29, -4);
+        let ton = piano[element.id].src.slice(40, -4);
         console.log(piano[element.id].src);
-        console.log(piano[ton]);
+        console.log(ton);
         if (element.id === ton){
             piano[ton].play();
             savedPiano.push(ton);
